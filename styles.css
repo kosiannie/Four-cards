@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    max-width: 375px;
+    margin: auto;
+    overflow-x: hidden;
+    font-size: 15px;
+    justify-content: center;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.heading {
+	width: 100%;
+    align-items: center;
+	text-align: center;
+	margin: auto;
+    justify-content: center;
+    padding-top: 2em;
+    line-height: 1.5;
+}
+.reliable {
+	margin: auto;
+    width: 300px;
+	font-weight: 200;
+	color: hsl(229, 6%, 66%);
+    font-size: 1.4rem;
+}
+.power {
+	margin: auto;
+    width: 300px;
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: hsl(234, 12%, 34%);
+}
+.heading p {
+    width: 300px;
+	font-size: 0.8rem;
+	text-align: center;
+	padding: 0 1em;
+	margin: auto;
+	padding-top: 1em;
+	color: hsl(229, 6%, 66%);
+	font-weight: 400;
+	line-height: 1.5;
+}
+.card {
+	padding-top: 4em;
+	display: grid;
+	grid-template-columns: 22em;
+	grid-template-rows: 18em 18em 18em 18em;
+	justify-content: center;
+	grid-gap: 30px;   
+}
+.box {
+    width: 100%;
+    height: 100%;
+    max-height:240px;
+    background-color: hsl(0, 0%, 98%);
+    padding-top: 2.5em;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0px black;
+}
+.box p {
+    margin: auto;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+.box h2 {
+    margin: auto;
+    line-height: 2;
+    color: hsl(234, 12%, 34%);
+}
+.box img {
+    width: 100%;
+    height: auto;
+    max-width: 20%;
+    position: relative;
+    right: -220px;
+    bottom: -40px;
+}
+.supervisor {
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+    border-top: 0.5rem solid hsl(180, 62%, 55%);
+    margin-bottom: 2rem;
+    box-shadow: 0 1rem 2rem 0.5rem #dedede;
+}
+.teambuilder {
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+    border-top: 0.5rem solid hsl(0, 78%, 62%);
+    margin-bottom: 2rem;
+    box-shadow: 0 1rem 2rem 0.5rem #dedede;
+}
+
+.karma {
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+    border-top: 0.5rem solid hsl(34, 97%, 64%);
+    margin-bottom: 2rem;
+    box-shadow: 0 1rem 2rem 0.5rem #dedede;
+}
+.calculator {
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+    border-top: 0.5rem solid hsl(212, 86%, 64%);
+    margin-bottom: 2rem;
+    box-shadow: 0 1rem 2rem 0.5rem #dedede;
+} 
+.title {
+    margin: 0;
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+}
+.paragraph {
+    margin: 0;
+    font-size: 1.5rem;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+footer {
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 900px) {
+	body {
+		width: 100%;
+		max-width: 1440px;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	.header {
+		width: 100%;
+		margin: auto;
+		max-width: 100%;
+		justify-content: center;
+	}
+
+	.heading {
+		width: 100%;
+		margin: auto;
+		align-content: center;
+		text-align: center;
+	}
+
+	.reliable {
+		width: 100%;
+		font-size: 2rem;
+		color: hsl(229, 6%, 66%);
+	}
+
+	.power {
+		width: 100%;
+		font-size: 2.2rem;
+        color: hsl(234, 12%, 34%);
+	}
+
+	.heading p {
+		font-size: 1rem;
+		width: 570px;
+	}
+
+	.card {
+		grid-template-columns: 25em 25em 25em;
+		grid-template-rows: 7em 8em 3em 2em 5em;
+	}
+
+	.supervisor {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		border-top: 5px solid hsl(180, 62%, 55%);
+	}
+
+	.teambuilder {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		border-top: 5px solid hsl(0, 78%, 62%);
+	}
+
+	.karma {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 5;
+		border-top: 5px solid hsl(34, 97%, 64%);
+	}
+
+	.calculator {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		border-top: 5px solid hsl(212, 86%, 64%);
+	}
+
+	.box {
+		height: 100%;
+		max-height: 240px;
+		min-height: 220px;
+		border-radius: 5px;
+		width: 100%;
+		max-width: 500px;
+		min-width: 350px;
+		box-shadow: 0 10px 16px 1px rgba(0, 0, 0, 0.11111111);
+	}
+
+	.box img {
+		width: 100%;
+		max-width: 16%;
+		right: -260px;
+		bottom: -20px;
+	}
+
+	.box p {
+		width: 280px;
+		margin: auto;
+		color: hsl(229, 6%, 66%);
+		font-weight: 400;
+		font-size: .85rem;
+		line-height: 2;
+	}
+
+	.box h2 {
+		margin: auto;
+		width: 280px;
+		line-height: 2;
+		color: hsl(234, 12%, 34%);
+		font-size: 1.4rem;
+	}
+
+	footer {
+		position: relative;
+		padding: 8em 0 2em 0;
+	}
+}
